@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Processador Intel Core i9-12900K",
+    "description": "Processador de última geração da série Intel Core, com 16 núcleos e 24 threads.",
+    "price": 599.99
+  },
+  {
+    "id": 2,
+    "name": "Processador AMD Ryzen 9 5950X",
+    "description": "Processador de alta performance da AMD, com 16 núcleos e 32 threads.",
+    "price": 699.99
+  },
+  {
+    "id": 3,
+    "name": "Processador Intel Core i7-12700K",
+    "description": "Processador da série Intel Core com 12 núcleos e 20 threads, ideal para jogos e tarefas intensivas.",
+    "price": 429.99
+  },
+  {
+    "id": 4,
+    "name": "Processador AMD Ryzen 7 5800X",
+    "description": "Processador de alto desempenho da AMD, com 8 núcleos e 16 threads.",
+    "price": 399.99
+  },
+  {
+    "id": 5,
+    "name": "Processador Intel Core i5-12600K",
+    "description": "Processador da série Intel Core com 10 núcleos e 16 threads, balanceando custo e desempenho.",
+    "price": 289.99
+  }
+]
