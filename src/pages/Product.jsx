@@ -1,12 +1,8 @@
-import { Link, useParams } from "react-router-dom";
-import products from "../database.json";
-export default function Product() {
-  const { productId } = useParams();
-  let product = products.find((p) => p.id === +productId); //esse + converte para tipo number
+import { Link, useLoaderData, useParams } from "react-router-dom";
 
-  if (!product) {
-    return <h2>Produto não encontrado</h2>;
-  }
+export default function Product() {
+  const product = useLoaderData();
+
   return (
     <section>
       <Link to="/products">
